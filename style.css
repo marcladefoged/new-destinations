@@ -58,15 +58,15 @@ main h1 {
     margin-bottom: 50px;
 }
 
-#input-container {
+.input-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     
 }
 
-#input-container input, #input-container textarea {
+.input-container input, .input-container textarea {
     width: 600px;
     height: 50px;
     border-radius: 6px;
@@ -75,7 +75,7 @@ main h1 {
     font-size: 16px;
 }
 
-#input-container textarea {
+.input-container textarea {
     height: 150px;
 }
 
@@ -85,12 +85,9 @@ main h1 {
     margin: auto;
 }
 
-#input-container label {
-    /* position: relative; */
-    /* right: 220px; */
-    
-    padding: 10px;
-    margin-top: 20px;
+.input-container label {
+    padding: 5px;
+
 }
 
 #buttons {
@@ -122,16 +119,17 @@ main h1 {
 
 .input-container.success input, .input-container.success textarea {
     border: 4px solid #09c372;
+    box-shadow: none;
 }
 
 .input-container.error input, .input-container.error textarea {
     border: 4px solid #ff3860;
+    box-shadow: none;
 }
 
 .input-container .error {
-    margin: 2px;
+    margin: 4px;
     color: #ff3860;
-    font-size: 18px;
-    font-weight: bolder;
+    font-size: 16px;
     height: 30px;
 }
