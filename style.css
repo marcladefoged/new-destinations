@@ -117,3 +117,21 @@ main h1 {
     color: #03A9F4;
     background-color: white;
 }
+
+/* ERRORS */
+
+.input-container.success input, .input-container.success textarea {
+    border: 4px solid #09c372;
+}
+
+.input-container.error input, .input-container.error textarea {
+    border: 4px solid #ff3860;
+}
+
+.input-container .error {
+    margin: 2px;
+    color: #ff3860;
+    font-size: 18px;
+    font-weight: bolder;
+    height: 30px;
+}
